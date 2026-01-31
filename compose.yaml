@@ -1,0 +1,10 @@
+services:
+  mongoNest:
+    image: mongo:7
+    ports:
+      - "27020:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
