@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AuthController } from './auth.controller';
 
+// Basic unit test for AuthController
 describe('AuthController', () => {
   let controller: AuthController;
 
